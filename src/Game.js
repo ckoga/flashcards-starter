@@ -18,11 +18,6 @@ class Game {
       util.main(round);
   }
 
-  // calculateRound() {
-  //   console.log(round.turn)
-  //   round.turn === round.deck.cards.length ? this.roundCount++ : null;
-  // }
-
   start() {
     let deck = new Deck(prototypeQuestions);
     let round = new Round(deck);
